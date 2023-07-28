@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img.jpg);
+    background-size: cover;
+    background-position: center;  
+}
+
+.abtbody{
+
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img.jpg);
+    background-size: cover;
+    background-position: center;  
+    
+}
+.about-text{
+    color: white;
+    
+    width: 550px;
+    font-size: small;
+}
+
+.about{
+   width: 100%;
+   padding: 100px 0px;
+}
+
+.sigil{
+    width: 100%;
+   padding: 100px 0px;
+}
+
+.sigil-text{
+    color: white;
+    font-family: 'Lugrasimo', cursive;
+    width: 550px;
+    font-size: large;
+}
+.main{
+    
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text p{
+    font-family: 'Lugrasimo', cursive;
+    font-weight: bolder;
+}
+
+.about-text h2{
+    font-family: 'Lugrasimo', cursive;
+    font-weight: bolder;
+}
+
+.sigil p{
+    font-family: 'Lugrasimo', cursive;
+    font-weight: bolder;
+}
+
+.container img{
+    position: absolute;
+    top: 3%;
+    left: 60%;
+}
+
+img{
+    width: 300px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+}
+
+span{
+    color: red;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+   
+}
+
+nav ul li a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: .3s;
+}
+
+button{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size:15px ;
+    font-weight: bold;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.watch{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width: 650px)  {
+  ul{
+    visibility: hidden;
+  }
+
+  h2{
+    width: 100%;
+   text-align: center;
+  }
+  button{
+    display: block;
+  }
+}
